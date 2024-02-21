@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 2.</title>
+    <style>
+        .error {
+            color: white;
+            background-color: red;
+        }
+
+        table {
+            border-spacing: 0px;
+        }
+
+        td {
+            width: 143px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body></body>
+    <h1>Greeting</h1>
+    <button id="greeting">Say Hello!</button>
+    <span id="hello" style="font-size: 2em;"></span>
+    <hr>
+    
+    <h1>Guess the number!</h1>
+    <input type="number" id="guess" min='0' max='100'>
+    <button id="guess">Guess</button>
+    <span id="guess"></span>
+    <hr>
+
+    <h1>Show Me the Image</h1>
+    URL: <input type="url" id="url"> <button id="showimage">Show Image!</button><br>
+    <img src=""><hr>
+
+    <h1>Working Links</h1>
+    For example <a href="http://inf.elte.hu/">here</a> you can find a link,
+    than another <a href="http://google.hu/">to google</a> and finally one <a href="mailto:gwckyp@inf.elte.hu">to send me a mail.</a>.
+    <ul></ul><hr>
+
+    <h1>Bank account handling</h1>
+    Your Balance: <span id="balance">500000</span> € <br>
+    Total after withdrawal: <input type="text" id="money"><button id="withdraw">Withdraw</button><hr>
+    
+    <h1>Load rows</h1>
+    <input id="field1"><input id="field2"><input id="field3"><button id="loadrow">Add row</button>
+    <table>
+        <tr>
+            <td>First column</td>
+            <td>Second column</td>
+            <td>Third column</td>
+        </tr>
+        <tr>
+            <td>Some</td>
+            <td>Random</td>
+            <td>Data</td>
+        </tr>
+    </table><hr>
+
+    <h1>Display slider value</h1>
+    <input type="range" min="0" max="100" step="1" value="50" style="width: 100%; padding: 0; margin: 0;">
+    <div id="slider" style="position: relative; width: 50px; text-align: center;">here</div>
+    
+    <script src="practice_2.js"></script>
+</body>
+</html>
