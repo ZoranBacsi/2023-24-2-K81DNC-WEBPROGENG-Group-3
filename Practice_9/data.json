@@ -1,0 +1,32 @@
+{
+    "010101011": {
+        "fullname": "Test Marie",
+        "id": "010101011",
+        "email": "tm78zu@inf.elte.hu",
+        "img": "profile4.svg",
+        "age": 50,
+        "gender": "f",
+        "regdate": "1999-02-28",
+        "notes": ""
+    },
+    "100200300": {
+        "fullname": "Test Alan",
+        "id": "100200300",
+        "email": "alan@test.com",
+        "img": "profile1.svg",
+        "age": 23,
+        "gender": "m",
+        "regdate": "",
+        "notes": ""
+    },
+    "234321456": {
+        "fullname": "Test Thomas",
+        "id": "234321456",
+        "email": "thomas@test.com",
+        "img": "profile3.svg",
+        "age": 43,
+        "gender": "m",
+        "regdate": "",
+        "notes": "This is the frist note for Thomas"
+    }
+}
